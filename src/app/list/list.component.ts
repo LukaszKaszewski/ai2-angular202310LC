@@ -19,4 +19,11 @@ export class ListComponent implements OnInit {
     this.people = this.personLsService.getAll();
     console.log(this.people);
   }
+
+  delete(index: number): void {
+    if (confirm('Are you sure?')) {
+      this.personLsService.deletePerson(index);
+      this.people = this.personLsService.getAll();
+    }
+  }
 }

@@ -1,0 +1,39 @@
+.details-container {
+  margin: 20px;
+  width: 225px;
+  background-color: #22ffff;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.back {
+  padding: 10px;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+  background-color: #005e5e;
+  color: whitesmoke;
+}
+
+dt {
+  padding: 3px 0;
+}
+
+.tab {
+  display: inline-block;
+  width: 75px;
+}
+
+.alert {
+  color: red;
+  font-weight: bold;
+}

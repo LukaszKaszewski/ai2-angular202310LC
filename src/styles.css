@@ -13,6 +13,14 @@ header {
   color: white;
 }
 
+header > a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  border: 3px solid white;
+  border-radius: 6px;
+}
+
 /*header > h1 {*/
 /*  padding: 20px;*/
 /*  color: whitesmoke;*/
